@@ -1,3 +1,23 @@
+.backgroundv
+{
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: -1;
+}
+
+
+
+
+
+
+
+
 body
 
 {
@@ -10,13 +30,10 @@ font-family: Arial;
 text-decoration-style: solid;
 text-shadow: 3px 3px 6px #000000;
 font-size: 20px;
-width: 100vw;
-height: 100vh;
-background-image: url("pokemon.jpg");
-background-size: cover;
+width: auto;
+height: auto;
 align-self: center;
 margin-right: auto;
 margin-left: auto;
-background-repeat: no-repeat;
-background-position: center;
+
 }
